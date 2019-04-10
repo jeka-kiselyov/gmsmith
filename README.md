@@ -85,6 +85,7 @@ Our `export` method provides support for the following options:
 - options `Object`
     - format `String` - Output image format to callback with. Currently, png and jpeg are available.
     - quality `Number` - Quality of output image on a scale from 0 to 100
+    - progressive `Boolean` - Make output image progressive. Works with jpeg format only.
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint using `npm run lint` and test via `npm test`.
